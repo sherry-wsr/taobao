@@ -1,0 +1,45 @@
+# 数据集（外部下载，不入库）
+O2O优惠券使用预测数据/
+social-media-campaign-analytics-main/
+taobao_data/
+
+# 未来项目产物（开发时由各项目自己的 .gitignore 管理）
+# 例如 taobao_user_behavior_analysis/data/raw/
+# 例如 taobao_user_behavior_analysis/data/processed.parquet
+# 例如 taobao_user_behavior_analysis/images/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 环境变量
+.env
+.env.local
+
+# 系统
+Thumbs.db
