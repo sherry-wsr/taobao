@@ -40,8 +40,9 @@ def load_data() -> pd.DataFrame:
 
 def setup_plot_style() -> None:
     """Unify plot styling across all notebooks."""
-    sns.set_theme(style="whitegrid", context="notebook", font="PingFang SC")
-    plt.rcParams["font.sans-serif"] = ["PingFang SC", "Heiti SC", "STHeiti", "Arial Unicode MS"]
+    sns.set_theme(style="whitegrid", context="notebook")
+    plt.rcParams["font.sans-serif"] = ["STHeiti", "Heiti SC", "PingFang SC", "STSong", "Arial Unicode MS"]
+    plt.rcParams["font.family"] = "sans-serif"
     plt.rcParams["axes.unicode_minus"] = False
     plt.rcParams["figure.figsize"] = (10, 6)
     plt.rcParams["figure.dpi"] = 100
