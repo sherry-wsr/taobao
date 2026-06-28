@@ -1,0 +1,20 @@
+# 数据与大文件
+data/processed.parquet
+data/derived/*.csv
+images/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
