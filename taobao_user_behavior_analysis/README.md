@@ -134,8 +134,8 @@ taobao_user_behavior_analysis/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/sherry-wsr/taboo.git
-cd taboo
+git clone https://github.com/sherry-wsr/taobao.git
+cd taobao
 
 # 2. 创建虚拟环境
 cd taobao_user_behavior_analysis
